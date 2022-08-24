@@ -7,6 +7,9 @@ These filters consist of filter types: LowPass, Highpass, BandPass, BandStop
 These filters consist of filter designs: Butterworth, Chebyshev I, Moving Average, and Windowed-Sinc.  
 The required implementation uses offline processing, but an attempt at real time implementation is made
 
+
+![image](https://user-images.githubusercontent.com/73859429/186488102-cacb9e14-9023-40f2-9640-a73f713fc5db.png)
+
 ## Capabilities of the design:
 
 - User can choose to input an audio file OR record their own audio through a microphone 
@@ -45,9 +48,21 @@ The required implementation uses offline processing, but an attempt at real time
   but the audio output/playback is then delayed by that increase 
   (we have set the recording intervals to 1 seconds)
 
-- (TAKE OUT ONCE RECODED)
-The signals are not plotted directly on the GUI, however they are still plotted and can be viewed
+- The signals are not plotted directly on the GUI, however they are still plotted and can be viewed
 
+## Suggested Future Implementation:
+
+- Display plot Visualizers on the GUI with ability to switch between the following
+	i. The input signal (Time and Frequency Response)
+	ii. The filter’s frequency response
+	iii. The output signal (Time and Frequency Response)
+
+- Decrease window size for real-time implementation  
+  (1 second to 0.1 second or less for reduced delay)
+  
+- Implement Analog Filters, more window-sinc windows, and other missing filters such as Bessel, Chebyshev II, etc.
+
+- Allow user to chose when to start/stop recording of audio rather than restricting them to a time limit
 
 
 
