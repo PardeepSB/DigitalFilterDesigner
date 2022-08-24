@@ -4,8 +4,8 @@
 
 A filter design tool to help users design, and test various filters made using a minimum number of built-in functions.  
 These filters consist of filter types: LowPass, Highpass, BandPass, BandStop  
-These filters consist of filter designs: Butterworth, Chebyshev I, Moving Average, and Windowed-Sinc.  
-The required implementation uses offline processing, but an attempt at real time implementation is made
+These filters consist of filter designs: Butterworth, Chebyshev I, Moving Average, and Windowed-Sinc  
+The required implementation uses offline processing, but an attempt at real time implementation is made.
 
 
 ![image](https://user-images.githubusercontent.com/73859429/186488102-cacb9e14-9023-40f2-9640-a73f713fc5db.png)
