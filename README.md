@@ -52,13 +52,12 @@ The required implementation uses offline processing, but an attempt at real time
 
 ## Suggested Future Implementation:
 
-- Display plot Visualizers on the GUI with ability to switch between the following
-	i. The input signal (Time and Frequency Response)
-	ii. The filter’s frequency response
+- Display plot Visualizers on the GUI with ability to switch between the following  
+	i. The input signal (Time and Frequency Response)  
+	ii. The filter’s frequency response  
 	iii. The output signal (Time and Frequency Response)
 
-- Decrease window size for real-time implementation  
-  (1 second to 0.1 second or less for reduced delay)
+- Decrease window size for real-time implementation (1 second to 0.1 second or less for reduced delay response)
   
 - Implement Analog Filters, more window-sinc windows, and other missing filters such as Bessel, Chebyshev II, etc.
 
